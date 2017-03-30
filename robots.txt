@@ -1,5 +1,6 @@
 # www.robotstxt.org/
 
-# Allow crawling of all content
+# Exclude all (well-behaved) robots from the entire structure
 User-agent: *
-Disallow:
+Disallow: /
+
